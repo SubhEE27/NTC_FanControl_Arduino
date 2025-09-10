@@ -14,9 +14,9 @@ The fan is represented by an **LED** connected to a PWM pin.
   - Potentiometer low → High temperature  
   - Potentiometer high → Low temperature  
 - Controls a **fan (LED)** with three states:
-  - **OFF** below 25 °C  
-  - **Half ON** between 25 °C and 30 °C  
-  - **Full ON** above 30 °C  
+  - **OFF** below 25 °C                 (analogWrite value is 0)
+  - **Half ON** between 25 °C and 30 °C (analogWrite value is 100 to notice the brightness difference)
+  - **Full ON** above 30 °C             (analogWrite value is 255 complete value)
 - Displays **temperature and fan state** on the Arduino Serial Monitor.
 
 ---

@@ -43,6 +43,6 @@ The fan is represented by an **LED** connected to a PWM pin.
   - Other end → **GND**
 
 ### Fan (LED)
-- Arduino pin **11 (PWM)** → 220Ω resistor → LED → GND
+- Arduino pin **11 (PWM)** → 220Ω resistor → LED → GND  (connected to PWM pin 11 since 13 is not a PWM pin so cannot use it to display certain level of brightness) 
 
 ---

@@ -1,6 +1,6 @@
 # NTC_FanControl_Arduino
 
-Tinkercad Link :-- https://www.tinkercad.com/things/44L40epDIZu/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits
+Tinkercad Link :-- https://www.tinkercad.com/things/44L40epDIZu-ntcfancontrolarduino?sharecode=Yrfni9jwOrZ4T_YGP4j2DP-hGXzoJxSwWI9CNFdNUvw
 
 This project simulates a **temperature-controlled fan system** using an Arduino Uno.  
 Since Tinkercad does not have a thermistor component, we use a **potentiometer** to simulate a **10k NTC thermistor**.  
